@@ -3,13 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Widget</title>
+    <title>Informações do Goiás EC</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Código do widget -->
-    <div data-widget-type="entityStandings" data-entity-type="league" data-entity-id="116" data-lang="pt-br" data-widget-id="23423ed6-7c8a-4e41-a620-eca7f5d9cd9d"></div>
-    <div id="powered-by">
-        <script src="https://widgets.365scores.com/main.js"></script>
+    <div class="container">
+        <header>
+            <h1>Informações do Goiás EC</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="tabela.html">Tabela</a></li>
+                <li><a href="Proximos Jogos.html">Próximo Jogo</a></li>
+            </ul>
+        </nav>
+        <section id="tabela">
+            <h2>Tabela da Série B</h2>
+            <iframe src="tabela.html" frameborder="0" width="100%" height="600px"></iframe>
+        </section>
+        <section id="proximo-jogo">
+            <h2>Próximo Jogo</h2>
+            <iframe src="Proximos Jogos.html" frameborder="0" width="100%" height="400px"></iframe>
+        </section>
     </div>
 </body>
 </html>
